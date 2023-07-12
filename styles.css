@@ -1,0 +1,158 @@
+html, body {
+	height: 100%;
+	font-size: 14px;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	background-color: #000;
+	color: #fff;
+	font-size: 1rem;
+}
+#container, button{
+	cursor:pointer;
+}
+.all {
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	text-align: center;
+
+	        background-color:rgba(  0,127,127,0.2);
+	       border: 1px solid rgba(127,255,255,0.25);
+	box-shadow: 0px 0px 12px rgba(  0,255,255,0.5);
+}
+.all:hover {
+	        background-color:rgba(  0,127,127,0.4);
+	       border: 1px solid rgba(127,255,255,1);
+	box-shadow: 0px 0px 12px rgba(  0,255,255,1);
+}
+.number{
+	font-size: 70px;
+	line-height: 120px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(255,255,255,0.75);
+}
+
+#info {
+	position: absolute;
+	top: 1.5rem;
+	width: 100%;
+	text-align: center;
+	margin-top: -1px;
+}
+button{
+	font-family: inherit;
+	box-sizing: border-box;
+	border: 1px solid #888;
+	font-size: 1rem;
+	min-width: 1.5rem;
+	height: 1.5rem;
+	padding: 0 0.2rem 0 0.2rem;
+	margin: -1px 0 0 -1px;
+	background-color: transparent;
+	color: inherit;
+}
+#numbermenu{
+	position: absolute;
+	top: 1.5rem;
+	left: 1.5rem;
+	width: fit-content;
+}
+#numbermenu > div{
+	margin-bottom: 1.5rem;
+}
+#buttonmenu{
+	display: flex;
+	flex-wrap: wrap;
+	width: calc(1.5rem * 10);
+}
+#buttonmenu > button{
+	padding:0;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+#functionmenu{
+	display: flex;
+	column-gap: 0.5rem;
+}
+#functionmenu > button{
+	height: 1.5rem;
+}
+
+#menu {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	column-gap: 0.5rem;
+	justify-content: center;
+	bottom: 1.5rem;
+}
+
+#resultmenu{
+	position: absolute;
+	padding: 2px;
+	top: 1.5rem;
+	right: 1.5rem;
+	width: 11rem;
+	border: 1px solid #888;
+	overflow-y: auto;
+	max-height: calc(100vh - 3rem);
+}
+hr{
+	margin:0.2rem 0 0.2rem 0;
+	padding:0;
+	border: 0.5px solid #888;	
+}
+
+.yel{
+			background-color:rgba(127,107,0,0.2);
+	       border: 1px solid rgba(255,235,75,0.25);
+	box-shadow: 0px 0px 12px rgba(255,235,75,0.5);
+}
+.yel:hover {
+	        background-color:rgba(127,107,0,0.4);
+	       border: 1px solid rgba(255,235,75,1);
+	box-shadow: 0px 0px 12px rgba(255,235,75,1);
+}
+.blu{
+			background-color:rgba(0,75,127,0.25);
+	       border: 1px solid rgba(0,125,255,0.3);
+	box-shadow: 0px 0px 12px rgba(0,125,255,0.6);
+}
+.blu:hover {
+	        background-color:rgba(0,75,127,0.5);
+	       border: 1px solid rgba(0,125,255,1);
+	box-shadow: 0px 0px 12px rgba(0,125,255,1);
+}
+.red{
+			background-color:rgba(150,0,10,0.2);
+	       border: 1px solid rgba(255,40,50,0.25);
+	box-shadow: 0px 0px 12px rgba(255,40,50,0.5);
+}
+.red:hover {
+	        background-color:rgba(150,0,0,0.4);
+	       border: 1px solid rgba(255,40,50,1);
+	box-shadow: 0px 0px 12px rgba(255,40,50,1);
+}
+.gra{
+			background-color:rgba(200,200,200,0.2);
+	       border: 1px solid rgba(200,200,200,0.25);
+	box-shadow: 0px 0px 12px rgba(200,200,200,0.5);
+}
+.gra:hover {
+	        background-color:rgba(200,200,200,0.4);
+	       border: 1px solid rgba(200,200,200,1);
+	box-shadow: 0px 0px 12px rgba(200,200,200,1);
+}
+.grn{
+			background-color:rgba(0,150,75,0.2);
+	       border: 1px solid rgba(20,255,125,0.25);
+	box-shadow: 0px 0px 12px rgba(20,255,125,0.5);
+}
+.grn:hover {
+	        background-color:rgba(0,150,75,0.4);
+	       border: 1px solid rgba(20,255,125,1);
+	box-shadow: 0px 0px 12px rgba(20,255,125,1);
+}
